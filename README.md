@@ -208,7 +208,7 @@ This is a full tutorial for installation and testing on colab.
 </table>
 
 ## Visualization and Having Fun
-<a href='https://colab.research.google.com/drive/1-lpKfMfgGt8vtriDvzZp2Q6HM0ZqMLDL?usp=sharing'>![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)</a>
+<a href='https://colab.research.google.com/drive/1vzYFg5C9ez0LNJwj4fTP0ahSvEWRd-fs?usp=sharing'>![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)</a>
 
 ## References:
 * https://www.kaggle.com/c/denoising-dirty-documents
