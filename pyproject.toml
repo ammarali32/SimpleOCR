@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "SimpleOCR"
+version = "0.1.0"
+description = ""
+authors = ["Ammar Ali"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+
+[tool.poetry.dev-dependencies]
+opencv-python = "^4.4.0"
+matplotlib = "^3.1.2"
+imageio = "^2.8.1"
+tensorflow = "^2.0.0"
+Pillow = "^7.0.0"
+pytesseract = "^0.3.8"
+pdf2jpg = "^1.0"
+click = "^8.0.1"
+imgaug = "^0.4.0"
+ipykernel = "^5.1.3"
+neuspell = "^1.0.0"
+
+[build-system]
+requires = ["poetry=1.0.8"]
+build-backend = "poetry.masonry.api"
+
+[tool.yapf]
+based_on_style = "pep8"
+spaces_before_comment = 4
+split_before_logical_operator = true
