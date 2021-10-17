@@ -77,8 +77,8 @@ class PreProcessor:
     def preprocess(self, img):
         LOG.logger.info("<<<< Start Preprocessing >>>>")
         original_img = img.copy()
-        img = self.removeLines(img)
         img = self.denoiseAndBinarize(img)
+        img = self.removeLines(img)
         img = self.fixRotation(img)       
         return img, original_img
 
