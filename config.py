@@ -6,7 +6,7 @@ import logging
 
 
 class CFG:
-    encoder_decoder_weights = 'weights/AutoEncoderModelBestLoss.h5' ## for photos denoising
+    encoder_decoder_weights = 'weights/image_denoising_model.h5' ## for photos denoising
     chars = '[^a-zA-Z0-9\n\.#@?/&\'\"_-]'
     
 class LOG:
